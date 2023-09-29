@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+Multani');
+body {
+    font-family: 'Noto Sans Multani', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #163172;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-height: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.separator {
+    color: #fff;
+}
+
+.container,
+.product-container {
+  text-align: center;
+  padding: 20px;
+/* height: 100vh; */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/*  two-column layout */
+.welcome-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
